@@ -1,5 +1,9 @@
 # MediBook Clinic Appointment System
 
+**Video Walkthrough:** (https://youtu.be/zfLCp5Ro5e4)
+
+**GitHub Repository:** (https://github.com/NMordecai/adv-backend-summative-medibook-project)
+
 A RESTful API backend for a clinic appointment booking system built with Node.js, Express.js, MySQL, and Redis.
 
 ## Prerequisites
