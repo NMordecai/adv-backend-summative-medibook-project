@@ -109,3 +109,13 @@ Using the Node.js fs.promises module, every successful booking and cancellation 
 
 ### Part E: Waitlist Queue (Redis)
 If a user tries to book a fully booked slot, they are pushed to a Redis list (queue). A separate worker process (worker.js) runs independently of the web server, polling the queue every 5 seconds. When a cancellation occurs, the worker pops the first patient and books them into the freed slot. If the promotion fails (e.g., someone else grabbed the slot), the patient is safely pushed back onto the queue so they are never lost. Additionally, every confirmed appointment enqueues a notification job that the worker processes to the audit log.
+
+## demonstration of the i18n feedback page with my responses.
+
+Due to how I wasn't able to answer the questions in the Demo video, I answered the questions and uploaded the images here in the README.md file  
+
+### English Version
+![Feedback English](./feedback-en.png)
+
+### French Version
+![Feedback French](./feedback-fr.png)
